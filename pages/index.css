@@ -6,3 +6,14 @@
   font-size: 16px;
   line-height: 20px;
 }
+.header {
+  background-color: #ffffff;
+}
+.header__background {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.nav_logo {
+  position: relative;
+}
