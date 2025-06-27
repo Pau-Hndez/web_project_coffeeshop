@@ -7,13 +7,20 @@
   line-height: 20px;
 }
 .header {
-  background-color: #ffffff;
-}
-.header__background {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.nav_logo {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
   position: relative;
+  box-sizing: border-box;
+  background: #fff url(../images/background_header.svg) no-repeat center / cover;
+}
+
+.nav_logo {
+  position: absolute;
+  max-width: 645px;
+  top: 124px;
+  right: 5px;
 }
