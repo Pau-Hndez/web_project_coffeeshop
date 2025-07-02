@@ -13,11 +13,7 @@
   margin: 0px auto 80px;
   padding-top: 100px;
 }
-.form {
-  display: flex;
-  flex-direction: column;
-  max-width: 385px;
-}
+
 .reservation__form {
   padding-bottom: 120px;
 }

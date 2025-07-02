@@ -1,3 +1,8 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 385px;
+}
 .form__label {
   font-weight: 500;
   font-size: 16px;
